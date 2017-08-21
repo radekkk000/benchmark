@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <form action="/" method="post">
+        base page: <input type="text" name="basePage" value="https://www.wp.pl"><br>
+        Competitor1: <input type="text" name="competitors[]" value="https://stackoverflow.com"><br>
+        Competitor2: <input type="text" name="competitors[]" value="https://interia.pl"><br>
+        Competitor3: <input type="text" name="competitors[]" value="https://onet.pl"><br>
+        <input type="submit" value="Now Report">
+    </form>
+{% endblock %}
+
