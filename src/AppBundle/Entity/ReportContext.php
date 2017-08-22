@@ -5,7 +5,7 @@ namespace AppBundle\Entity;
 class ReportContext {
 
     private $strategy = NULL;
-
+// new ReportContext($type); typ powinien być reportId czy coś 
     public function __construct($strategy_ind_id) {
         switch ($strategy_ind_id) {
             case "now":
